@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+
+/* header, section {
+  overflow-x: hidden;
+} */
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  /* --bggradient: linear-gradient(to bottom, #dd2476, #ff512f); */
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background: #ff512f;
+  /* fallback for old browsers */
+  background: var(--bggradient);
+}
+
+header .container .col-md-7 {
+  font-family: "Rubik", sans-serif;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+ul.navbar-nav{ margin: auto; float: right; margin-right: inherit;}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #f1f1f1;
+}
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* header  */
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+.home{
+
+    overflow: hidden;
+}
+.navbar-nav{
+    margin-right: 20px;
+    font-weight: 800;
+    
+}
+.box{
+    
+    background-image: url(blueberryimg/heroimg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box img{
+    position: relative;
+    top:170px;
+   
+}
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*-------------------- Banner Section --------------------*/
+
+.mt-5{
+    margin-top: 100px !important;
+}
+section.banner {
+    background-image: url("blueberryimg/heroimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+    margin-top: -85px;
+  }
+  
+  .banner h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-attachment: fixed;
+  }
+  button.btn1 {
+    box-shadow: none;
+    border: 0px solid #333;
+    margin-top: 15px;
+    padding: 8px 40px;
+    background-color: #ff6a1f;
+    color: #fff;
+    font-size: 17px;
+    border-radius:0px;
+    text-transform: capitalize;
+}
+  
+  /*-------------------- Banner Section ends --------------------*/
+
+  .laptop img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  .col-lg-6.about{
+    display: flex;
+    align-items: center;
+  }
+
+/*-------------------- text and video --------------------*/
+.wearer img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+.col-md-8.box22{
+    padding-left: 40px;
+}
+.quotes{
+    position: relative;
+}
+.quotes:before{
+    content: '';
+    background: url(blueberryimg/quotes1.png);
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.7;
+}
+.quotes:after{
+    content: '';
+    background: url(blueberryimg/quotes1.png);
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    right: 0;
+    bottom: -31px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.7;
+}
+
+@media screen and (max-width:767px) {
+    body{
+        overflow-x: hidden;
+    }
+    .wearer img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        float: none !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mt-5{
+        margin-top: 50px !important;
+    }
+    /* .navbar .navbar-toggler[aria-expand="true"]{
+        color: #fff;
+    }
+    .navbar .navbar-toggler:focus{
+        color: #fff;
+    } */
+    .navbar{
+        background: #151515;
+    }
+}
+
+/*-------------------- gallery --------------------*/
+.col-md-3{
+    padding: 0;
+}
+.image-box1{
+    background-image: url("blueberryimg/gallery1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    position: relative;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+button.btn{
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    color: white;
+    background-color: #ff512f;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.image-box2{
+    background-image: url("blueberryimg/gallery1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+@media screen and (max-width:767px) {
+    button.btn{
+        position: absolute;
+    bottom: 0;
+    left: 155px !important;
+    color: white;
+    background-color: #ff512f;
+    border-radius: 0;
+    margin-bottom: 20px;
+    }
+}
+
+/*-------------------- Blueberry: just right --------------------*/
+img.shape{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.berry h2{
+    margin-top: -25px;
+}
+.row.last{
+    margin-top: -100px !important;
+}
+@media screen and (max-width:767px) {
+    img.shape-2-copy{
+        display: none;
+    }
+    img.im2{
+        margin-top: -80px;
+    }
+}
+
+/*-------------------- 4-PODS --------------------*/
+section.pods{
+    background-image: url("blueberryimg/sec4.jpg");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(blueberryimg/sec4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    margin: 0 auto;
+    margin-top:100px;
+}
+
+/*-------------------- Pods Section --------------------*/
+section.pods1 .row:nth-child(1) {
+    margin-top: -70px;
+  }
+  
+  section.pods1 .box-wrap {
+    padding: 40px 50px;
+    box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 10%);
+    border-radius: 7px;
+    background-color: #fff;
+  }
+  
+  section.pods1 .box-wrap img {
+    border-radius: 50%;
+    width: 55%;
+  }
+  section.pods .box-wrap .content-wrap {
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+  }
+   @media screen and (max-width: 992px) {
+    section.pods .col-lg-4 {
+      max-width: 100%;
+    }
+  }
+
+  /*-------------------- Technology --------------------*/
+
+  section.technology {
+    background-image: url("blueberryimg/heroimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-attachment: fixed;
+    margin-top: 100px;
+  }
+
+  .tech{
+    background-color: #fff;
+    padding: 50px 40px;
+  }
+  @media screen and (max-width: 767px) {
+    section.technology {
+        background-image: url(blueberryimg/heroimg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-attachment: fixed;
+        margin-top: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    section.pods1 .box-wrap {
+        padding: 40px 50px;
+        box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 10%);
+        border-radius: 7px;
+        background-color: #fff;
+        margin-top: 17px;
+    }
+  }
