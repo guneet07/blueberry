@@ -280,10 +280,11 @@ section.banner {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
-    padding-top: 164px;
+    background-attachment: fixed;
+    padding-top: 205px;
     padding-bottom: 150px;
     background-color: #151515;
-    max-height: 80vh;
+    max-height: 85vh;
 }
 }
 
