@@ -264,6 +264,17 @@ section.banner {
     .navbar{
         background: #151515;
     }
+  header .navbar-brand {
+  padding: 0;
+  }
+  .navbar-toggler {
+    padding: 0;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
 }
 
 /*-------------------- gallery --------------------*/
