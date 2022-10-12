@@ -286,6 +286,13 @@ section.banner {
     background-color: #151515;
     max-height: 85vh;
 }
+  p {
+    margin-top: 15px;
+    margin-bottom: 1rem;
+}
+  .h3, h3 {
+    font-size: 1.2rem;
+}
 }
 
 /*-------------------- gallery --------------------*/
